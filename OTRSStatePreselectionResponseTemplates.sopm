@@ -20,4 +20,14 @@
         <File Permission="660" Location="var/httpd/htdocs/js/Core.Agent.Admin.ResponseTicketStatePreSelection.js" />
         <File Permission="660" Location="var/packagesetup/OTRSStatePreselectionResponseTemplates.pm" />
     </Filelist>
+    <DatabaseInstall Type="post">
+        <TableAlter Name="standard_template">
+            <ColumnAdd Name="preselected_ticket_state_id" Required="false" Type="INTEGER"></ColumnAdd>
+        </TableAlter>
+    </DatabaseInstall>
+    <DatabaseUninstall Type="pre">
+        <TableAlter Name="standard_template">
+            <ColumnDrop Name="preselected_ticket_state_id" />
+        </TableAlter>
+    </DatabaseUninstall>
 </otobo_package>
