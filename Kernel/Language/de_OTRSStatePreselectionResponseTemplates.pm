@@ -32,7 +32,7 @@ sub Data {
     $Self->{Translation}->{'Frontend module registration for the admin interface.'} = '';
     $Self->{Translation}->{'Manage ticket state pre-selections for response templates.'} = 'Ticketstatus-Vorauswahl für Antwortvorlagen verwalten.';
     $Self->{Translation}->{'Provides state preselection functionality for responses.'} = 'Stellt die Funktionalität der Ticketstatus-Vorauswahl für Antwortvorlagen zur Verfügung.';
-    $Self->{Translation}->{'State pre-selection for Templates'} = '';
+    $Self->{Translation}->{'State pre-selection for Templates'} = 'Vorlagen <-> Status';
     $Self->{Translation}->{'Ticket state pre-selection for response templates'} = 'Ticketstatus-Vorauswahl für Antwortvorlagen';
 
 
