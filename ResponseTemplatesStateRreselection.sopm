@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otobo_package version="1.0">
-    <Name>ResponseTemplatesStateRreselection</Name>
+    <Name>ResponseTemplatesStatePreselection</Name>
     <Version>10.1.0</Version>
     <Framework>10.1.x</Framework>
     <Vendor>Rother OSS GmbH</Vendor>
@@ -12,12 +12,12 @@
         <File Permission="660" Location="Kernel/Config/Files/XML/ResponseTemplatesStatePreselection.xml" />
         <File Permission="660" Location="Kernel/Language/de_ResponseTemplatesStatePreselection.pm" />
         <File Permission="660" Location="Kernel/Language/hu_ResponseTemplatesStatePreselection.pm" />
-        <File Permission="660" Location="Kernel/Modules/AdminResponseTicketStatePreSelection.pm" />
+        <File Permission="660" Location="Kernel/Modules/AdminResponseTicketStatePreselection.pm" />
         <File Permission="660" Location="Kernel/Modules/ResponseTemplatesStatePreselection.pm" />
-        <File Permission="660" Location="Kernel/Output/HTML/Templates/Standard/AdminResponseTicketStatePreSelection.tt" />
+        <File Permission="660" Location="Kernel/Output/HTML/Templates/Standard/AdminResponseTicketStatePreselection.tt" />
         <File Permission="660" Location="Kernel/System/ResponseTemplatesStatePreselection.pm" />
         <File Permission="660" Location="scripts/test/ResponseTemplatesStatePreselection.t" />
-        <File Permission="660" Location="var/httpd/htdocs/js/Core.Agent.Admin.ResponseTicketStatePreSelection.js" />
+        <File Permission="660" Location="var/httpd/htdocs/js/Core.Agent.Admin.ResponseTicketStatePreselection.js" />
         <File Permission="660" Location="var/packagesetup/ResponseTemplatesStatePreselection.pm" />
     </Filelist>
     <DatabaseInstall Type="post">

@@ -124,7 +124,7 @@
                             [% Translate("or") | html %]
                             <button class="Primary CallForAction" id="Submit" type="submit" value="[% Translate("Save") | html %]"><span>[% Translate("Save and finish") | html %]</span></button>
                             [% Translate("or") | html %]
-                            <a href="[% Env("Baselink") %]Action=AdminResponseTicketStatePreSelection">[% Translate("Cancel") | html %]</a>
+                            <a href="[% Env("Baselink") %]Action=AdminResponseTicketStatePreselection">[% Translate("Cancel") | html %]</a>
                         </div>
                         <div class="Clear"></div>
                     </fieldset>
