@@ -14,7 +14,7 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
 
-package Kernel::Modules::OTRSStatePreselectionResponseTemplates;
+package Kernel::Modules::ResponseTemplatesStatePreselection;
 
 use strict;
 use warnings;
@@ -44,7 +44,7 @@ sub PreRun {
     my $ResponseID = $ParamObject->GetParam( Param => 'ResponseID' );
     return if !$ResponseID;
 
-    my %Response = $Kernel::OM->Get('Kernel::System::OTRSStatePreselectionResponseTemplates')->StandardTemplateGet(
+    my %Response = $Kernel::OM->Get('Kernel::System::ResponseTemplatesStatePreselection')->StandardTemplateGet(
         ID => $ResponseID,
     );
     return if !%Response;

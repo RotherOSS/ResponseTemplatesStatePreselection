@@ -14,7 +14,7 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
 
-package var::packagesetup::OTRSStatePreselectionResponseTemplates;
+package var::packagesetup::ResponseTemplatesStatePreselection;
 
 use strict;
 use warnings;
@@ -30,7 +30,7 @@ use Kernel::System::VariableCheck qw(:all);
 
 =head1 NAME
 
-var::packagesetup::OTRSStatePreselectionResponseTemplates - code to execute during package installation
+var::packagesetup::ResponseTemplatesStatePreselection - code to execute during package installation
 
 =head1 DESCRIPTION
 
@@ -44,7 +44,7 @@ create an object
 
     use Kernel::System::ObjectManager;
     local $Kernel::OM = Kernel::System::ObjectManager->new();
-    my $CodeObject = $Kernel::OM->Get('var::packagesetup::OTRSStatePreselectionResponseTemplates');
+    my $CodeObject = $Kernel::OM->Get('var::packagesetup::ResponseTemplatesStatePreselection');
 
 =cut
 
@@ -76,7 +76,7 @@ sub new {
     );
 
     # Define file prefix.
-    $Self->{FilePrefix} = 'OTRSStatePreselectionResponseTemplates';
+    $Self->{FilePrefix} = 'ResponseTemplatesStatePreselection';
 
     return $Self;
 }
@@ -205,7 +205,7 @@ sub _MigrateConfigs {
 
     my $Success = $SysConfigObject->SettingsSet(
         UserID   => 1,
-        Comments => 'OTRSStatePreselectionResponseTemplates - Migrate navigation settings',
+        Comments => 'ResponseTemplatesStatePreselection - Migrate navigation settings',
         Settings => \@DeploySettings,
     );
 
@@ -225,7 +225,7 @@ sub _MigrateRenamedConfigs {
     # Lookup hash for new config setting names.
     my %LookupNewConfigNames = (
         'PreApplicationModule###OTRSResponseTicketStatePreSelection' =>
-            'PreApplicationModule###OTRSStatePreselectionResponseTemplates',
+            'PreApplicationModule###ResponseTemplatesStatePreselection',
     );
 
     my $Home = $Kernel::OM->Get('Kernel::Config')->Get('Home');
@@ -249,7 +249,7 @@ sub _MigrateRenamedConfigs {
         # Deploy only the package settings (even if the migration of
         #   the effective values was not or only party successful).
         $Success = $Kernel::OM->Get('Kernel::System::SysConfig')->ConfigurationDeploy(
-            Comments      => "OTRSStatePreselectionResponseTemplates - package migration for renamed config options",
+            Comments      => "ResponseTemplatesStatePreselection - package migration for renamed config options",
             NoValidation  => 1,
             UserID        => 1,
             Force         => 1,

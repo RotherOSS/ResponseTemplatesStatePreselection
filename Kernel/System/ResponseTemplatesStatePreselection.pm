@@ -14,7 +14,7 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
 
-package Kernel::System::OTRSStatePreselectionResponseTemplates;
+package Kernel::System::ResponseTemplatesStatePreselection;
 
 use strict;
 use warnings;
@@ -27,7 +27,7 @@ our @ObjectDependencies = (
 
 =head1 NAME
 
-Kernel::System::OTRSStatePreselectionResponseTemplates - auto response template lib
+Kernel::System::ResponseTemplatesStatePreselection - auto response template lib
 
 =head1 DESCRIPTION
 

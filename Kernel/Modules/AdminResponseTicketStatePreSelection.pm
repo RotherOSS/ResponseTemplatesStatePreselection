@@ -39,7 +39,7 @@ sub Run {
     my $LayoutObject = $Kernel::OM->Get('Kernel::Output::HTML::Layout');
     my $ParamObject  = $Kernel::OM->Get('Kernel::System::Web::Request');
     my $ResponseTicketStatePreSelectionObject
-        = $Kernel::OM->Get('Kernel::System::OTRSStatePreselectionResponseTemplates');
+        = $Kernel::OM->Get('Kernel::System::ResponseTemplatesStatePreselection');
 
     # ------------------------------------------------------------ #
     # change
@@ -195,7 +195,7 @@ sub _Overview {
 
         my $StateObject = $Kernel::OM->Get('Kernel::System::State');
         my $ResponseTicketStatePreSelectionObject
-            = $Kernel::OM->Get('Kernel::System::OTRSStatePreselectionResponseTemplates');
+            = $Kernel::OM->Get('Kernel::System::ResponseTemplatesStatePreselection');
 
         for my $ID ( sort { $List{$a} cmp $List{$b} } keys %List ) {
 

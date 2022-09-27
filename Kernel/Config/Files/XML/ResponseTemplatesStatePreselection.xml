@@ -22,7 +22,7 @@
             </Item>
         </Value>
     </Setting>
-    <Setting Name="Loader::Module::AdminResponseTicketStatePreSelection###002-OTRSStatePreselectionResponseTemplates" Required="0" Valid="1">
+    <Setting Name="Loader::Module::AdminResponseTicketStatePreSelection###002-ResponseTemplatesStatePreselection" Required="0" Valid="1">
         <Description Translatable="1">Loader module registration for the agent interface.</Description>
         <Navigation>Frontend::Admin::ModuleRegistration::Loader</Navigation>
         <Value>
@@ -35,7 +35,7 @@
             </Hash>
         </Value>
     </Setting>
-    <Setting Name="Frontend::Navigation###AdminResponseTicketStatePreSelection###002-OTRSStatePreselectionResponseTemplates" Required="0" Valid="0">
+    <Setting Name="Frontend::Navigation###AdminResponseTicketStatePreSelection###002-ResponseTemplatesStatePreselection" Required="0" Valid="0">
         <Description Translatable="1">Main menu item registration.</Description>
         <Navigation>Frontend::Admin::ModuleRegistration::MainMenu</Navigation>
         <Value>
@@ -63,18 +63,18 @@
                 </Item>
                 <Item Key="Module">Kernel::Output::HTML::NavBar::ModuleAdmin</Item>
                 <Item Key="Name" Translatable="1">State pre-selection for Templates</Item>
-                <Item Key="Block">Ticket</Item>
+                <Item Key="Block">Miscellaneous</Item>
                 <Item Key="Description" Translatable="1">Manage ticket state pre-selections for response templates.</Item>
                 <Item Key="IconBig">fa-th-list</Item>
                 <Item Key="IconSmall"></Item>
             </Hash>
         </Value>
     </Setting>
-    <Setting Name="PreApplicationModule###OTRSStatePreselectionResponseTemplates" Required="1" Valid="1">
+    <Setting Name="PreApplicationModule###ResponseTemplatesStatePreselection" Required="1" Valid="1">
         <Description Translatable="1">Provides state preselection functionality for responses.</Description>
         <Navigation>Frontend::Agent</Navigation>
         <Value>
-            <Item ValueType="String" ValueRegex="">Kernel::Modules::OTRSStatePreselectionResponseTemplates</Item>
+            <Item ValueType="String" ValueRegex="">Kernel::Modules::ResponseTemplatesStatePreselection</Item>
         </Value>
     </Setting>
 </otobo_config>

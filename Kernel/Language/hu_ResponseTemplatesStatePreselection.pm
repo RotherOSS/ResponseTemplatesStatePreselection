@@ -14,7 +14,7 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
 
-package Kernel::Language::hu_OTRSStatePreselectionResponseTemplates;
+package Kernel::Language::hu_ResponseTemplatesStatePreselection;
 
 use strict;
 use warnings;

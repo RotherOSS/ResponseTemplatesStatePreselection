@@ -144,7 +144,7 @@ my @Tests = (
     },
 );
 
-my $ResponseTicketStatePreSelectionObject = $Kernel::OM->Get('Kernel::System::OTRSStatePreselectionResponseTemplates');
+my $ResponseTicketStatePreSelectionObject = $Kernel::OM->Get('Kernel::System::ResponseTemplatesStatePreselection');
 
 TEST:
 for my $Test (@Tests) {
