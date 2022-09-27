@@ -14,7 +14,7 @@
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 # --
 
-package Kernel::Modules::AdminResponseTicketStatePreselection;
+package Kernel::Modules::AdminResponseTemplatesStatePreselection;
 
 use strict;
 use warnings;
@@ -64,7 +64,7 @@ sub Run {
             %Data,
         );
         $Output .= $LayoutObject->Output(
-            TemplateFile => 'AdminResponseTicketStatePreselection',
+            TemplateFile => 'AdminResponseTemplatesStatePreselection',
             Data         => \%Param,
         );
         $Output .= $LayoutObject->Footer();
@@ -125,7 +125,7 @@ sub Run {
         }
 
         $Output .= $LayoutObject->Output(
-            TemplateFile => 'AdminResponseTicketStatePreselection',
+            TemplateFile => 'AdminResponseTemplatesStatePreselection',
             Data         => \%Param,
         );
         $Output .= $LayoutObject->Footer();

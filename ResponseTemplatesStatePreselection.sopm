@@ -12,9 +12,9 @@
         <File Permission="660" Location="Kernel/Config/Files/XML/ResponseTemplatesStatePreselection.xml" />
         <File Permission="660" Location="Kernel/Language/de_ResponseTemplatesStatePreselection.pm" />
         <File Permission="660" Location="Kernel/Language/hu_ResponseTemplatesStatePreselection.pm" />
-        <File Permission="660" Location="Kernel/Modules/AdminResponseTicketStatePreselection.pm" />
+        <File Permission="660" Location="Kernel/Modules/AdminResponseTemplatesStatePreselection.pm" />
         <File Permission="660" Location="Kernel/Modules/ResponseTemplatesStatePreselection.pm" />
-        <File Permission="660" Location="Kernel/Output/HTML/Templates/Standard/AdminResponseTicketStatePreselection.tt" />
+        <File Permission="660" Location="Kernel/Output/HTML/Templates/Standard/AdminResponseTemplatesStatePreselection.tt" />
         <File Permission="660" Location="Kernel/System/ResponseTemplatesStatePreselection.pm" />
         <File Permission="660" Location="scripts/test/ResponseTemplatesStatePreselection.t" />
         <File Permission="660" Location="var/httpd/htdocs/js/Core.Agent.Admin.ResponseTicketStatePreselection.js" />
