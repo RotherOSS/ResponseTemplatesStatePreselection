@@ -20,17 +20,17 @@ Core.Agent = Core.Agent || {};
 Core.Agent.Admin = Core.Agent.Admin || {};
 
 /**
- * @namespace Core.Agent.Admin.ResponseTicketStatePreselection
+ * @namespace Core.Agent.Admin.ResponseTemplatesStatePreselection
  * @memberof Core.Agent.Admin
  * @author OTRS AG
  * @description
- *      This namespace contains the special module functions for the ResponseTicketStatePreselection module.
+ *      This namespace contains the special module functions for the ResponseTemplatesStatePreselection module.
  */
-Core.Agent.Admin.ResponseTicketStatePreselection = (function (TargetNS) {
+Core.Agent.Admin.ResponseTemplatesStatePreselection = (function (TargetNS) {
 
     /**
     * @name Init
-    * @memberof Core.Agent.Admin.ResponseTicketStatePreselection
+    * @memberof Core.Agent.Admin.ResponseTemplatesStatePreselection
     * @function
     * @description
     *       Initialize module functionality.
@@ -44,4 +44,4 @@ Core.Agent.Admin.ResponseTicketStatePreselection = (function (TargetNS) {
     Core.Init.RegisterNamespace(TargetNS, 'APP_MODULE');
 
     return TargetNS;
-}(Core.Agent.Admin.ResponseTicketStatePreselection || {}));
+}(Core.Agent.Admin.ResponseTemplatesStatePreselection || {}));

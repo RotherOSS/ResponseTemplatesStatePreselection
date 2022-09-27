@@ -17,7 +17,7 @@
         <File Permission="660" Location="Kernel/Output/HTML/Templates/Standard/AdminResponseTemplatesStatePreselection.tt" />
         <File Permission="660" Location="Kernel/System/ResponseTemplatesStatePreselection.pm" />
         <File Permission="660" Location="scripts/test/ResponseTemplatesStatePreselection.t" />
-        <File Permission="660" Location="var/httpd/htdocs/js/Core.Agent.Admin.ResponseTicketStatePreselection.js" />
+        <File Permission="660" Location="var/httpd/htdocs/js/Core.Agent.Admin.ResponseTemplatesStatePreselection.js" />
         <File Permission="660" Location="var/packagesetup/ResponseTemplatesStatePreselection.pm" />
     </Filelist>
     <DatabaseInstall Type="post">
