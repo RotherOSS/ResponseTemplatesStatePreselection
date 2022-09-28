@@ -184,7 +184,7 @@ sub _MigrateConfigs {
     BACKEND:
     for my $Backend ( sort keys %{$Setting} ) {
 
-        next BACKEND if $Backend ne 'AdminResponseTicketStatePreSelection';
+        next BACKEND if $Backend ne 'AdminResponseTemplatesStatePreselection';
 
         my $Module = $Setting->{$Backend}->{Module};
 
@@ -224,7 +224,7 @@ sub _MigrateRenamedConfigs {
 
     # Lookup hash for new config setting names.
     my %LookupNewConfigNames = (
-        'PreApplicationModule###OTRSResponseTicketStatePreSelection' =>
+        'PreApplicationModule###OTRSResponseTemplatesStatePreselection' =>
             'PreApplicationModule###ResponseTemplatesStatePreselection',
     );
 
