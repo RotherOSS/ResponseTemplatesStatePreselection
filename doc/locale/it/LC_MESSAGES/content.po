@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019-2024 Rother OSS GmbH, https://otobo.de/
+# This file is distributed under the same license as the OTOBO Installation
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OTOBO Installation Guide rel-11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-16 10:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../content/index.rst:16
+msgid "Sacrifice to Sphinx"
+msgstr ""
+
+#: ../../content/index.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../content/index.rst:21
+msgid ""
+"Extends response template configuration by se- lectable ticket state "
+"which will be pre-select- ed upon answering a ticket."
+msgstr ""
+
+#: ../../content/index.rst:24
+msgid "Configuring pre-selected ticket states for response templates"
+msgstr ""
+
+#: ../../content/index.rst:26
+msgid ""
+"This package adds a new option called \"State pre-selection for "
+"Templates\" within the \"Ticket Settings\" in the ADMIN panel. You can "
+"set a ticket state to response template. The ticket state will be pre-"
+"selected when answering a ticket via a response template."
+msgstr ""
+
+#: ../../content/index.rst:30
+msgid ""
+"The configured ticket states must be allowed in ticket context as next "
+"state. If this should not be the case, no next state will be pre-selected"
+" when answering a ticket."
+msgstr ""
+
+#: ../../content/index.rst:35
+msgid "System requirements"
+msgstr ""
+
+#: ../../content/index.rst:38
+msgid "Framework"
+msgstr ""
+
+#: ../../content/index.rst:39
+msgid "OTOBO 10.1.x"
+msgstr ""
+
+#: ../../content/index.rst:42
+msgid "Packages"
+msgstr ""
+
+#: ../../content/index.rst:43 ../../content/index.rst:47
+msgid "\\-"
+msgstr ""
+
+#: ../../content/index.rst:46
+msgid "Third-party software"
+msgstr ""
+
+#: ../../content/index.rst:51
+msgid "Installation"
+msgstr ""
+
+#: ../../content/index.rst:53
+msgid ""
+"The following instructions explain how to install the package. There are "
+"two possibilities."
+msgstr ""
+
+#: ../../content/index.rst:58
+msgid ""
+"Please use the following URL to install the package utilizing the Admin "
+"Interface (please note that you need to be in the \"admin\" group). "
+"https://localhost/otobo/index.pl?Action=AdminPackageManager"
+msgstr ""
+
+#: ../../content/index.rst:64
+msgid ""
+"Whenever you cannot use the Admin Interface for whatever reason, you may "
+"use the following command line tool (\"bin/otobo.Console.pl "
+"Admin::Package::Install\") instead."
+msgstr ""
+
+#: ../../content/index.rst:75
+msgid "1. Set state for response template"
+msgstr ""
+
+#: ../../content/index.rst:77
+msgid ""
+"Go to the admin interface, and look for the 'State pre-selection for "
+"Templates' within the 'Ticket Settings' section and click on this link."
+msgstr ""
+
+#: ../../content/index.rst:79
+msgid ""
+"Once on the 'Manage ticket state pre-selections for response templates' "
+"screen click on one of the listed answer templates, then on the edit "
+"screen set a new value for 'Pre-selected ticket state' field."
+msgstr ""
+
+#: ../../content/index.rst:81
+msgid ""
+"Zoom a ticket and open the reply screen, verify the 'Pre-selected ticket "
+"state' should be set on the 'Next ticket state' field."
+msgstr ""
+
+#: ../../content/index.rst:85
+msgid "Configuration Reference"
+msgstr ""
+
+#: ../../content/index.rst:88
+msgid "Frontend::Admin::ModuleRegistration"
+msgstr ""
+
+#: ../../content/index.rst:91
+msgid "Frontend::Module###AdminResponseTemplatesStatePreselection"
+msgstr ""
+
+#: ../../content/index.rst:92
+msgid "Frontend module registration for the admin interface."
+msgstr ""
+
+#: ../../content/index.rst:95
+msgid "Frontend::Admin::ModuleRegistration::AdminOverview"
+msgstr ""
+
+#: ../../content/index.rst:98
+msgid "Frontend::NavigationModule###AdminResponseTemplatesStatePreselection"
+msgstr ""
+
+#: ../../content/index.rst:99
+msgid "Admin area navigation for the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:102
+msgid "Frontend::Admin::ModuleRegistration::Loader"
+msgstr ""
+
+#: ../../content/index.rst:105
+msgid "Loader::Module::AdminResponseTemplatesStatePreselection###002-ResponseTemplatesStatePreselection"
+msgstr ""
+
+#: ../../content/index.rst:106
+msgid "Loader module registration for the agent interface."
+msgstr ""
+
+#: ../../content/index.rst:109
+msgid "Frontend::Admin::ModuleRegistration::MainMenu"
+msgstr ""
+
+#: ../../content/index.rst:112
+msgid "Frontend::Navigation###AdminResponseTemplatesStatePreselection###002-ResponseTemplatesStatePreselection"
+msgstr ""
+
+#: ../../content/index.rst:113
+msgid "Main menu item registration."
+msgstr ""
+
+#: ../../content/index.rst:116
+msgid "Frontend::Agent"
+msgstr ""
+
+#: ../../content/index.rst:119
+msgid "PreApplicationModule###ResponseTemplatesStatePreselection"
+msgstr ""
+
+#: ../../content/index.rst:120
+msgid "Provides state preselection functionality for responses."
+msgstr ""
+
+#: ../../content/index.rst:126
+msgid "About"
+msgstr ""
+
+#: ../../content/index.rst:129
+msgid "Contact"
+msgstr ""
+
+#: ../../content/index.rst:130
+msgid "Rother OSS GmbH"
+msgstr ""
+
+#: ../../content/index.rst:131
+msgid "Email: hello@otobo.de"
+msgstr ""
+
+#: ../../content/index.rst:132
+msgid "Web: https://otobo.de"
+msgstr ""
+
+#: ../../content/index.rst:135
+msgid "Version"
+msgstr ""
+
+#: ../../content/index.rst:136
+msgid ""
+"Author: |doc-vendor| / Version: |doc-version| / Date of release: |doc-"
+"datestamp| Author: OTRS AG / Version: 6.* / 2018-07-24"
+msgstr ""
+
