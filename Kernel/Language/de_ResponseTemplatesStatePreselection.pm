@@ -24,6 +24,8 @@ sub Data {
     my $Self = shift;
 
     # SysConfig
+    $Self->{Translation}->{'Defines the initial height for the rich text editor component in pixels.'} =
+        '';
     $Self->{Translation}->{'Provides state preselection functionality for responses.'} = '';
 
 
